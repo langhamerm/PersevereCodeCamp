@@ -1,0 +1,13 @@
+#pdog {
+    width: 183px;
+    height: 330px;
+    float: right;
+    margin-right: 550px;
+}
+.container {
+    text-align: center;
+}
+
+body {
+    background: coral;
+}
