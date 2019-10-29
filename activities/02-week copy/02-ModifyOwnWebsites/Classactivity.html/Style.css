@@ -1,0 +1,44 @@
+body {
+    background-color: burlywood;
+    font-family: 'Poppins', sans-serif;
+
+}
+header {
+    font-size: 20px;
+    font-style: initial;
+    background-color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+}
+.music {
+    font-size: 50px;
+    
+}
+.movie {
+    font-size: 50px;
+   
+}
+.games {
+   
+    font-size: 50px;
+}
+.column {
+    width: 33.33%;
+    padding: 5px;
+  }
+#music {
+    width: 100px;
+    height: 100px;
+}  
+#movie {
+   width: 100px;
+   height: 100px; 
+}
+#games {
+    width: 100px;
+    height: 100px;
+}
+footer {
+    background-color: teal;
+    float: center;
+}
