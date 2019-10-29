@@ -1,0 +1,35 @@
+head {
+    background-color: black;
+    color: orange
+}
+#title {
+    background-color: orange;
+    text-align: center;
+    font-family: 'Ruge Boogie', cursive;
+}
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+#footer {
+    background-color: orange;
+    text-align: center;
+}
+#pumpkin {
+    text-align: center;
+    background-color: orange;
+    font-family: 'Ruge Boogie', cursive;
+    margin-left: 430px;
+    
+
+}
+#patch { 
+    /* font-family: 'Ruge Boogie', cursive; */
+}
+#trees {
+    align-content: center;
+    margin-left: 430px;
+}
+.navbar {
+    color: orange;
+}
