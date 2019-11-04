@@ -1,0 +1,27 @@
+/*Normal Element Rule*/
+a {
+    font-size: 64px;
+}
+
+/*Hover Pseudo Class:
+    Change the style only when the mouse hovers over the preceding element*/
+a:hover {
+    background-color: red;
+}
+
+/* Focus Pseudo Class
+    Changes the style only when the browser
+    gives the element focus.
+    After link is clicked.
+    */
+a:focus {
+    background-color: orange;
+}
+
+/* Active Pseudo Class
+    Changes the style only while the user clicks
+    down on an element. It ceases when the user 
+    releases the click */
+a:active {
+    background-color: black;
+}

@@ -1,0 +1,48 @@
+body {
+    background-color: aqua;
+
+}
+header {
+    text-align: center;
+}
+#head1 {
+    background-color: teal;
+    padding: 20px 20px 20px 20px;
+    font-family: 'Big Shoulders Text', cursive;
+}
+nav {
+    float: right;
+    background-color: aquamarine;
+    border: beige 20px 10px 20px 10px;
+}
+#p1 {
+    float: left;
+    font-family: 'Liu Jian Mao Cao', cursive;
+
+}
+#codepic {
+    float: left;
+}
+#p2 {
+    float: center;
+}
+#p3 {
+    float: center;
+}
+#bottom {
+    border: beige 20px 10px 20px 10px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#hometab {
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+}
+#fcctab {
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+}
