@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+   <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <div class="nav">
+                <ul>
+                    <li>Home</li></li>
+                </ul>
+            </div>
+               <div class="nav">
+                 <ul>
+                     <li>Home</li>
+                     <li>service</li>
+                     <li>support</li>
+                     <li>contact</li>
+                
+                 </ul>
+             </div> 
+             <div class="wrapper">
+                <div class="image-area">
+
+                    <div class="image-text"></div>
+                </div>
+             <div class="intro-text"></div>
+             <div class="services">
+                 <img src="images/rose.jpeg" />
+                 <p>This is where I'll describe the service</p>
+                </div>
+                <div class="services">
+                        <img src="images/rose.jpeg" />
+                        <p>This is where I'll describe the service</p>
+                       </div>
+                       <div class="services">
+                            <img src="images/rose.jpeg" />
+                            <p>This is where I'll describe the service</p>
+                           </div>
+                           <div class="services">
+                                <img src="images/rose.jpeg" />
+                                <p>This is where I'll describe the service</p>
+                               </div>
+                </div>
+            
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
+body {
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.nav {
+  background-color: cadetblue;
+  color: white;
+}
+.nav ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 0px;
+}
+.nav ul li {
+  padding: 16px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+  transition: background-color 0.2s;
+}
+.nav ul li:hover {
+  background-color: black;
+}
+.image-area {
+  background-image:url('images/background.png');
+  background-color:black;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.centered-container {
+  max-width: 1020px;
+  margin: 0px auto;
+  padding: 0px 16px;
+}
+.image-text {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 2.5rem;
+}
+.intro-text {
+  color: gray;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.single-service {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.single-service p {
+  padding: 0px 16px;
+}
+@media screen and (min-width: 700px) {
+  .nav ul {
+    text-align: right;
+  }
+  .nav ul li {
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+    text-align: left;
+  }
+  .single-service {
+    width: 50%;
+    float: left;
+  }
+}
