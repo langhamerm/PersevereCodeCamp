@@ -22,17 +22,26 @@
       var entireClass = [studentsRow1, studentsRow2, studentsRow3];
 
 
-      // How do we print out every single student in Row 1?
+      // How do we print out every single student in Row 1? (FOR LOOP)
+
+      for (var i = 0; i < studentsRow1.length; i++) {
+        console.log(studentsRow1[i]);
+      }
+
+      // How do we print out every student in Row 2 whose first name begins with J? (FOR LOOP & charAt())
+      for (var x = 0; x < studentsRow2.length; x++) {
+        if (studentsRow2[x].charAt(0) === "J") {
+          console.log(studentsRow2[x]);
+        }
+        
+      }
 
 
-      // How do we print out every student in Row 2 whose first name begins with J?
+      // Using the entireClass array, how do we access the second student in row 3? (console.log)
+      console.log(entireClass[2][1]);
 
-
-      // Using the entireClass array, how do we access the second student in row 3?
-
-
-      // Using the entireClass array, how do we access the third student in row 2?
-
+      // Using the entireClass array, how do we access the third student in row 2? (console.log)
+      console.log(entireClass[1][2]);
 
     </script>
     

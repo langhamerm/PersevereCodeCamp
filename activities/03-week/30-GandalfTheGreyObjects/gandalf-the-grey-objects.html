@@ -22,15 +22,23 @@
       ]
     };
 
-    // Object properties can be accessed with "bracket notation"
+
+    // object.property;  < ----- Dot Notation
+
+    // object[property]; <------- Bracket Notation 
+
+    // Object properties can be accessed with "dot notation"
     alert("My name is " + gandalf.realName);
 
-    // Or with "dot notation" if the property has no spaces
+    
+
+    // Or with "bracket notation" if the property has no spaces
     if (gandalf.haveRetirementPlan) {
 
       // Or with a variable that matches the name of the property
       var ageProperty = "age (est)";
       var years = gandalf[ageProperty];
+      // var years = gandalf.ageProperty;
       alert("My 401k has been gathering interest for " + years + " years!");
     }
 
